@@ -1,11 +1,13 @@
-import AboutMe from '@/components/AboutMe'
 import Image from 'next/image'
+import AboutMe from '@/components/AboutMe'
+import VincentComponent from '@/components/VincentComponent'
+
 
 export default function Home() {
   return (
     <div>
       <AboutMe />
-      <div></div>
+    <VincentComponent/>
     </div>
   )
 }
