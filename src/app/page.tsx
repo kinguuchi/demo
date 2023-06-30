@@ -8,7 +8,6 @@ const Home = () => {
   return (
     <div>
       <VincentComponent/>
-      <Btn />
       <AboutMe className='flex flex-col bg-red-600'/>
       <AboutMe className='bg-yellow-300'/>
       <VincentComponent/>
