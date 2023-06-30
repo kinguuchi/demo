@@ -4,12 +4,16 @@ import VincentComponent from '@/components/VincentComponent'
 import Btn from '@/components/BastyComponent'
 
 
-export default function Home() {
+const Home = () => {
   return (
     <div>
-      <AboutMe />
       <VincentComponent/>
       <Btn />
+      <AboutMe className='flex flex-col bg-red-600'/>
+      <AboutMe className='bg-yellow-300'/>
+      <VincentComponent/>
     </div>
   )
 }
+
+export default Home;
