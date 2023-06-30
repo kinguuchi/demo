@@ -3,11 +3,14 @@ import AboutMe from '@/components/AboutMe'
 import VincentComponent from '@/components/VincentComponent'
 
 
-export default function Home() {
+const Home = () => {
   return (
     <div>
-      <AboutMe />
-    <VincentComponent/>
+      <AboutMe className='flex flex-col bg-red-600'/>
+      <AboutMe className='bg-yellow-300'/>
+      <VincentComponent/>
     </div>
   )
 }
+
+export default Home;
