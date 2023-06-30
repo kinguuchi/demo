@@ -1,8 +1,8 @@
-const btn = () => {
+const Btn = () => {
     return (
         <button>
             Click me
         </button>
-    )
+    );
 }
-export default btn
+export default Btn;
