@@ -6,4 +6,4 @@ const RuelComponent = () => {
     )
 }
 
-export default RuelComponent
+export default RuelComponent;
