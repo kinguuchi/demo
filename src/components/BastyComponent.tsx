@@ -1,7 +1,7 @@
 const Btn = () => {
     return (
-        <div className="flex bg-white">
-            <button className="bg-red-600 mx-auto my-0">
+        <div className="flex w-screen h-screen bg-black">
+            <button className="bg-red-600 mx-auto my-auto">
                 Click me
             </button>
         </div>
