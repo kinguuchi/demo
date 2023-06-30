@@ -1,7 +1,9 @@
 const RuelComponent = () => {
     return (
-        <div>
-            Hello world!
+        <div className="flex flex-col items-center">
+        <button>
+            Button
+        </button>
         </div>
     )
 }
