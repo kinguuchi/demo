@@ -4,12 +4,15 @@ import VincentComponent from '@/components/VincentComponent'
 import RuelComponent from '@/components/RuelComponent'
 
 
-export default function Home() {
+const Home = () => {
   return (
     <div>
-      <AboutMe />
+      <AboutMe className='flex flex-col bg-red-600'/>
+      <AboutMe className='bg-yellow-300'/>
       <VincentComponent/>
       <RuelComponent/>
     </div>
   )
 }
+
+export default Home;

@@ -1,8 +1,12 @@
 import React from 'react'
 
-const AboutMe = () => {
+interface AboutMeProps {
+  className: string
+}
+
+const AboutMe = ({className}: AboutMeProps) => {
   return (
-    <div className='flex items-center justify-center '>Hi</div>
+    <div className={className}>Hi</div>
   )
 }
 
