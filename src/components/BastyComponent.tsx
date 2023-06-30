@@ -1,8 +1,10 @@
 const Btn = () => {
     return (
-        <button>
-            Click me
-        </button>
+        <div className="flex bg-white">
+            <button className="bg-red-600 mx-auto my-0">
+                Click me
+            </button>
+        </div>
     );
 }
 export default Btn;
