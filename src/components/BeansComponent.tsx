@@ -5,4 +5,4 @@ const BeansComponent = () => {
         </div>
     )
 }
-export default BeansComponent
+export default BeansComponent;
