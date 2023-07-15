@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import AboutMe from '@/components/AboutMe';
 import Card from '@/components/Card';
 import { Data } from '../../public/data';
@@ -11,7 +12,6 @@ const Home = () => {
       <Card items={Data} />
       <Login/>
     </div>
-  );
 };
 
 export default Home;
