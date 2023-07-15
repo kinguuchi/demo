@@ -12,6 +12,7 @@ const Home = () => {
       <Card items={Data} />
       <Login/>
     </div>
+  )
 };
 
 export default Home;
